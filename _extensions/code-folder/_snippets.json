@@ -1,0 +1,23 @@
+{
+  "Fold block lines": {
+    "prefix": "fold-lines",
+    "body": [
+      "```{.${1:python} data-fold-lines=\"${2:3-5,7-9}\" data-fold-summary=\"${3:'Preparation','Computation'}\"}",
+      "${4:import numpy as np}",
+      "${5:x = np.array([1, 2, 3])}",
+      "${6:print(x.mean())}",
+      "```"
+    ],
+    "description": "Insert a code block with collapsible line ranges."
+  },
+  "Fold inline ranges": {
+    "prefix": "fold-inline",
+    "body": [
+      "```{.${1:python} fold-line-ranges=\"${2:1:3-10,2:4-}\"}",
+      "${3:import pandas as pd}",
+      "${4:print(pd.__version__)}",
+      "```"
+    ],
+    "description": "Insert a code block with inline fold ranges."
+  }
+}

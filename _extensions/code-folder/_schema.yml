@@ -1,0 +1,22 @@
+$schema: https://m.canouil.dev/quarto-wizard/assets/schema/v1/extension-schema.json
+
+attributes:
+  CodeBlock:
+    data-fold-lines:
+      type: string
+      description: Comma-separated line ranges to fold, such as 3-5,7-9.
+    data-fold-summary:
+      type: string
+      description: Optional fold summaries matching data-fold-lines ranges.
+    fold-lines:
+      type: string
+      description: Alias for data-fold-lines.
+    fold-summary:
+      type: string
+      description: Alias for data-fold-summary.
+    data-fold-line-ranges:
+      type: string
+      description: Inline ranges to fold inside lines, such as 1:3-10,2:4-.
+    fold-line-ranges:
+      type: string
+      description: Alias for data-fold-line-ranges.
