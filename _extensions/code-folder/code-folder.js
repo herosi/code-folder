@@ -93,7 +93,7 @@ function initCodeFolding() {
   const finalConfig = mergeConfigs(defaultConfig, window.CODE_FOLDER_CONFIG);
   window.CODE_FOLDER_CONFIG = finalConfig;
   
-  console.log('Final config:', finalConfig);
+  // console.log('Final config:', finalConfig);
   
   if (window.Reveal) {
     if (Reveal.isReady()) {
