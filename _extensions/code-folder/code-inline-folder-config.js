@@ -1,5 +1,5 @@
 window.CODE_INLINE_FOLDER_CONFIG = {
-  "defaultMarker": "...",
+  "defaultMarker": "<snip>",
   
   "style": {
     "markerColor": "black",
